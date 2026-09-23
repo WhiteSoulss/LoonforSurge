@@ -1,0 +1,4588 @@
+{
+  "catalog": "https://hub.kelee.one/list.json",
+  "mirror_repository": "https://github.com/Qmxn/Tools",
+  "mirror_commit": "f849c3730ed760b36d4b79d1d793c5e8176d8a87",
+  "converter": "https://github.com/Script-Hub-Org/Script-Hub",
+  "total": 275,
+  "converted": 270,
+  "experimental_generic": 2,
+  "converted_ruleset": 1,
+  "missing_source": 2,
+  "conversion_errors": 0,
+  "plugins": [
+    {
+      "name": "HTTPDNS拦截器",
+      "filename": "Block_HTTPDNS.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx",
+      "catalog_date": "2026-09-03 16:04:36",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Block_HTTPDNS.lpx",
+      "status": "converted",
+      "mirror_date": "2026-09-03 16:04:36",
+      "module": "modules/Block_HTTPDNS.sgmodule",
+      "sections": [
+        "Rule",
+        "URL Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 8373,
+      "module_bytes": 8157
+    },
+    {
+      "name": "广告平台拦截器",
+      "filename": "BlockAdvertisers.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx",
+      "catalog_date": "2026-09-21 00:12:18",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/BlockAdvertisers.lpx",
+      "status": "converted",
+      "mirror_date": "2026-09-21 00:12:18",
+      "module": "modules/BlockAdvertisers.sgmodule",
+      "sections": [
+        "Rule",
+        "URL Rewrite",
+        "MITM"
+      ],
+      "source_bytes": 15207,
+      "module_bytes": 14288
+    },
+    {
+      "name": "1.1.1.1配置管理",
+      "filename": "1.1.1.1.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/1.1.1.1.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/1.1.1.1.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/1.1.1.1.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1911,
+      "module_bytes": 1887
+    },
+    {
+      "name": "5EPlay去广告",
+      "filename": "5EPlay_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/5EPlay_remove_ads.lpx",
+      "catalog_date": "2026-08-24 18:59:19",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/5EPlay_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-08-24 18:59:19",
+      "module": "modules/5EPlay_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1516,
+      "module_bytes": 2277
+    },
+    {
+      "name": "36氪去广告",
+      "filename": "36Kr_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/36Kr_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/36Kr_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/36Kr_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2104,
+      "module_bytes": 2908
+    },
+    {
+      "name": "123云盘去广告",
+      "filename": "123NetWorkDisk_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/123NetWorkDisk_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/123NetWorkDisk_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/123NetWorkDisk_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 618,
+      "module_bytes": 595
+    },
+    {
+      "name": "360摄像机去广告",
+      "filename": "360SmartCamera_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/360SmartCamera_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/360SmartCamera_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/360SmartCamera_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 749,
+      "module_bytes": 887
+    },
+    {
+      "name": "360智慧生活去广告",
+      "filename": "SafetyHome_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/SafetyHome_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/SafetyHome_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/SafetyHome_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 699,
+      "module_bytes": 678
+    },
+    {
+      "name": "555电影去广告",
+      "filename": "555DY_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/555DY_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/555DY_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/555DY_remove_ads.sgmodule",
+      "sections": [
+        "MITM"
+      ],
+      "source_bytes": 781,
+      "module_bytes": 478
+    },
+    {
+      "name": "12306去广告",
+      "filename": "12306_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/12306_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/12306_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/12306_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 904,
+      "module_bytes": 1048
+    },
+    {
+      "name": "Apple天气增强",
+      "filename": "AppleWeatherEnhancer.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/AppleWeatherEnhancer.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/AppleWeatherEnhancer.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/AppleWeatherEnhancer.sgmodule",
+      "sections": [
+        "Rule",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 3266,
+      "module_bytes": 2037
+    },
+    {
+      "name": "B612咔叽去广告",
+      "filename": "SnowCamera_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/SnowCamera_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/SnowCamera_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/SnowCamera_remove_ads.sgmodule",
+      "sections": [
+        "Rule"
+      ],
+      "source_bytes": 647,
+      "module_bytes": 541
+    },
+    {
+      "name": "BoxJs",
+      "filename": "BoxJs.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/BoxJs.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/BoxJs.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 820,
+      "module_bytes": 716
+    },
+    {
+      "name": "CC直播去广告",
+      "filename": "CCLive_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/CCLive_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/CCLive_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/CCLive_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1549,
+      "module_bytes": 1032
+    },
+    {
+      "name": "DJ多多去广告",
+      "filename": "DjDuoDuo_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/DjDuoDuo_remove_ads.lpx",
+      "catalog_date": "2026-08-22 12:51:37",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/DjDuoDuo_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-08-22 12:51:37",
+      "module": "modules/DjDuoDuo_remove_ads.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 726,
+      "module_bytes": 651
+    },
+    {
+      "name": "Dlabel云标签去广告",
+      "filename": "Dlabel_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Dlabel_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Dlabel_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Dlabel_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 701,
+      "module_bytes": 754
+    },
+    {
+      "name": "DNS防泄露",
+      "filename": "Prevent_DNS_Leaks.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Prevent_DNS_Leaks.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Prevent_DNS_Leaks.lpx",
+      "status": "converted-ruleset",
+      "mirror_date": "2026-06-01 17:11:35",
+      "ruleset": "rulesets/Prevent_DNS_Leaks.list",
+      "sections": [
+        "Rule"
+      ]
+    },
+    {
+      "name": "DREAME去广告",
+      "filename": "DREAME_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/DREAME_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/DREAME_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/DREAME_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1434,
+      "module_bytes": 1805
+    },
+    {
+      "name": "ECOVACS HOME去广告",
+      "filename": "EcovacsHome_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/EcovacsHome_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/EcovacsHome_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/EcovacsHome_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 897,
+      "module_bytes": 772
+    },
+    {
+      "name": "e充电去广告",
+      "filename": "EasyCharge_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/EasyCharge_remove_ads.lpx",
+      "catalog_date": "2026-07-02 18:48:17",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/EasyCharge_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-07-02 18:48:17",
+      "module": "modules/EasyCharge_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1286,
+      "module_bytes": 1605
+    },
+    {
+      "name": "Fileball网盘挂载",
+      "filename": "Fileball_mount.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Fileball_mount.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Fileball_mount.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Fileball_mount.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 828,
+      "module_bytes": 757
+    },
+    {
+      "name": "Follow每日签到",
+      "filename": "FollowRSS_checkin.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/FollowRSS_checkin.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/FollowRSS_checkin.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/FollowRSS_checkin.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1076,
+      "module_bytes": 821
+    },
+    {
+      "name": "Foodie去广告",
+      "filename": "Foodie_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Foodie_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Foodie_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Foodie_remove_ads.sgmodule",
+      "sections": [
+        "Rule"
+      ],
+      "source_bytes": 605,
+      "module_bytes": 503
+    },
+    {
+      "name": "Google搜索重定向",
+      "filename": "Google.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Google.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Google.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Google.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "MITM"
+      ],
+      "source_bytes": 654,
+      "module_bytes": 573
+    },
+    {
+      "name": "Hong Kong Toolbar去广告",
+      "filename": "HongKongToolbar_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/HongKongToolbar_remove_ads.lpx",
+      "catalog_date": "2026-06-24 16:45:00",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/HongKongToolbar_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-24 16:45:00",
+      "module": "modules/HongKongToolbar_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "MITM"
+      ],
+      "source_bytes": 665,
+      "module_bytes": 567
+    },
+    {
+      "name": "IPA工具箱助手",
+      "filename": "IPATool.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/IPATool.lpx",
+      "catalog_date": "2026-06-14 20:11:24",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/IPATool.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-14 20:11:24",
+      "module": "modules/IPATool.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 895,
+      "module_bytes": 862
+    },
+    {
+      "name": "IT之家去广告",
+      "filename": "IThome_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/IThome_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/IThome_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/IThome_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1219,
+      "module_bytes": 1008
+    },
+    {
+      "name": "Jump去广告",
+      "filename": "Jump_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Jump_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Jump_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Jump_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "MITM"
+      ],
+      "source_bytes": 951,
+      "module_bytes": 631
+    },
+    {
+      "name": "Keep去广告",
+      "filename": "Keep_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Keep_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Keep_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Keep_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 3557,
+      "module_bytes": 4108
+    },
+    {
+      "name": "KOOK去广告",
+      "filename": "KOOK_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/KOOK_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/KOOK_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/KOOK_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1133,
+      "module_bytes": 1237
+    },
+    {
+      "name": "Line去广告",
+      "filename": "Line_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Line_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Line_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Line_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "URL Rewrite",
+        "MITM"
+      ],
+      "source_bytes": 3186,
+      "module_bytes": 3111
+    },
+    {
+      "name": "OKOK去广告",
+      "filename": "OKOK_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/OKOK_remove_ads.lpx",
+      "catalog_date": "2026-07-03 13:38:14",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/OKOK_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-07-03 13:38:14",
+      "module": "modules/OKOK_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 893,
+      "module_bytes": 1032
+    },
+    {
+      "name": "PICOOC去广告",
+      "filename": "PICOOC_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/PICOOC_remove_ads.lpx",
+      "catalog_date": "2026-08-27 09:50:52",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/PICOOC_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-08-27 09:50:52",
+      "module": "modules/PICOOC_remove_ads.sgmodule",
+      "sections": [
+        "MITM"
+      ],
+      "source_bytes": 1140,
+      "module_bytes": 489
+    },
+    {
+      "name": "Pinterest去广告",
+      "filename": "Pinterest_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Pinterest_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Pinterest_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Pinterest_remove_ads.sgmodule",
+      "sections": [
+        "MITM"
+      ],
+      "source_bytes": 868,
+      "module_bytes": 456
+    },
+    {
+      "name": "QQ链接解锁",
+      "filename": "QQ_Redirect.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/QQ_Redirect.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/QQ_Redirect.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/QQ_Redirect.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "MITM"
+      ],
+      "source_bytes": 1458,
+      "module_bytes": 1383
+    },
+    {
+      "name": "QQ音乐去广告",
+      "filename": "QQMusic_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/QQMusic_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/QQMusic_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/QQMusic_remove_ads.sgmodule",
+      "sections": [
+        "Rule"
+      ],
+      "source_bytes": 894,
+      "module_bytes": 775
+    },
+    {
+      "name": "Reddit去广告",
+      "filename": "Reddit_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Reddit_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Reddit_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Reddit_remove_ads.sgmodule",
+      "sections": [
+        "MITM"
+      ],
+      "source_bytes": 649,
+      "module_bytes": 423
+    },
+    {
+      "name": "ReelShort去广告",
+      "filename": "ReelShort_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/ReelShort_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/ReelShort_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/ReelShort_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1294,
+      "module_bytes": 1863
+    },
+    {
+      "name": "Roborock去广告",
+      "filename": "Roborock_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Roborock_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Roborock_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Roborock_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 959,
+      "module_bytes": 888
+    },
+    {
+      "name": "RQrun去广告",
+      "filename": "RQrun_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/RQrun_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/RQrun_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/RQrun_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 581,
+      "module_bytes": 567
+    },
+    {
+      "name": "Script-Hub",
+      "filename": "Script-Hub.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Script-Hub.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Script-Hub.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Script-Hub.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1707,
+      "module_bytes": 1504
+    },
+    {
+      "name": "Sofascore去广告",
+      "filename": "Sofascore_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Sofascore_remove_ads.lpx",
+      "catalog_date": "2026-08-22 03:55:33",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Sofascore_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-08-22 03:55:33",
+      "module": "modules/Sofascore_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 762,
+      "module_bytes": 764
+    },
+    {
+      "name": "Soul去广告",
+      "filename": "Soul_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Soul_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Soul_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Soul_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2118,
+      "module_bytes": 2329
+    },
+    {
+      "name": "Spotify去广告",
+      "filename": "Spotify_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Spotify_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Spotify_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Spotify_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1523,
+      "module_bytes": 1347
+    },
+    {
+      "name": "Spotify歌词增强",
+      "filename": "Spotify_lyrics_translation.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Spotify_lyrics_translation.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Spotify_lyrics_translation.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Spotify_lyrics_translation.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2252,
+      "module_bytes": 2252
+    },
+    {
+      "name": "Sub-Store",
+      "filename": "Sub-Store.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Sub-Store.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Sub-Store.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Sub-Store.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1335,
+      "module_bytes": 1178
+    },
+    {
+      "name": "Telegram重定向",
+      "filename": "TelegramRedirect.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/TelegramRedirect.lpx",
+      "catalog_date": "2026-08-03 15:27:21",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/TelegramRedirect.lpx",
+      "status": "converted",
+      "mirror_date": "2026-08-03 15:27:21",
+      "module": "modules/TelegramRedirect.sgmodule",
+      "sections": [
+        "MITM"
+      ],
+      "source_bytes": 1018,
+      "module_bytes": 557
+    },
+    {
+      "name": "TeraBox去广告",
+      "filename": "TeraBox_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/TeraBox_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/TeraBox_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/TeraBox_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 856,
+      "module_bytes": 1043
+    },
+    {
+      "name": "TestFlight地区解锁",
+      "filename": "TestFlightRegionUnlock.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/TestFlightRegionUnlock.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/TestFlightRegionUnlock.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/TestFlightRegionUnlock.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 778,
+      "module_bytes": 955
+    },
+    {
+      "name": "TubeMax去广告",
+      "filename": "TubeMax_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/TubeMax_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/TubeMax_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/TubeMax_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "URL Rewrite",
+        "MITM"
+      ],
+      "source_bytes": 913,
+      "module_bytes": 783
+    },
+    {
+      "name": "Tumblr去广告",
+      "filename": "Tumblr_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Tumblr_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Tumblr_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Tumblr_remove_ads.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1743,
+      "module_bytes": 2046
+    },
+    {
+      "name": "Uki去广告",
+      "filename": "Uki_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Uki_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Uki_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Uki_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1855,
+      "module_bytes": 2236
+    },
+    {
+      "name": "VVebo时间线修复",
+      "filename": "VVebo_repair.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/VVebo_repair.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/VVebo_repair.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/VVebo_repair.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1464,
+      "module_bytes": 1444
+    },
+    {
+      "name": "WakeUp课程表去广告",
+      "filename": "WakeupSchedule_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/WakeupSchedule_remove_ads.lpx",
+      "catalog_date": "2026-07-01 10:56:37",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/WakeupSchedule_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-07-01 10:56:37",
+      "module": "modules/WakeupSchedule_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 734,
+      "module_bytes": 941
+    },
+    {
+      "name": "WARP节点查询",
+      "filename": "WARP_Node_Query.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/WARP_Node_Query.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/WARP_Node_Query.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/WARP_Node_Query.sgmodule",
+      "sections": [
+        "MITM"
+      ],
+      "source_bytes": 837,
+      "module_bytes": 583
+    },
+    {
+      "name": "WPS每日签到",
+      "filename": "WPS_checkin.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/WPS_checkin.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/WPS_checkin.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/WPS_checkin.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1475,
+      "module_bytes": 949
+    },
+    {
+      "name": "YouTube去广告",
+      "filename": "YouTube_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/YouTube_remove_ads.lpx",
+      "catalog_date": "2026-07-23 03:47:41",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/YouTube_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-07-23 03:47:41",
+      "module": "modules/YouTube_remove_ads.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2644,
+      "module_bytes": 2188
+    },
+    {
+      "name": "YouTube双语翻译",
+      "filename": "YouTubeSubtitlesTranslation.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/YouTubeSubtitlesTranslation.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/YouTubeSubtitlesTranslation.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/YouTubeSubtitlesTranslation.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 4905,
+      "module_bytes": 4639
+    },
+    {
+      "name": "YY去广告",
+      "filename": "YY_Voice_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/YY_Voice_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/YY_Voice_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/YY_Voice_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1674,
+      "module_bytes": 1378
+    },
+    {
+      "name": "YY语音去广告",
+      "filename": "YYVoiceTool_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/YYVoiceTool_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/YYVoiceTool_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/YYVoiceTool_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1155,
+      "module_bytes": 1070
+    },
+    {
+      "name": "ZAKER去广告",
+      "filename": "ZAKER_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/ZAKER_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/ZAKER_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/ZAKER_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1185,
+      "module_bytes": 1438
+    },
+    {
+      "name": "爱企查去广告",
+      "filename": "Aiinquiry_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Aiinquiry_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Aiinquiry_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Aiinquiry_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1360,
+      "module_bytes": 1970
+    },
+    {
+      "name": "爱奇艺去广告",
+      "filename": "iQiYi_Video_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/iQiYi_Video_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/iQiYi_Video_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/iQiYi_Video_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 4406,
+      "module_bytes": 3774
+    },
+    {
+      "name": "阿里云盘去广告",
+      "filename": "AliYunDrive_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/AliYunDrive_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/AliYunDrive_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/AliYunDrive_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1210,
+      "module_bytes": 1280
+    },
+    {
+      "name": "百度地图去广告",
+      "filename": "BaiduMap_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/BaiduMap_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/BaiduMap_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/BaiduMap_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2054,
+      "module_bytes": 3614
+    },
+    {
+      "name": "百度翻译去广告",
+      "filename": "BaiduTranslate_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/BaiduTranslate_remove_ads.lpx",
+      "catalog_date": "2026-06-30 23:28:03",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/BaiduTranslate_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-30 23:28:03",
+      "module": "modules/BaiduTranslate_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 988,
+      "module_bytes": 1448
+    },
+    {
+      "name": "百度输入法去广告",
+      "filename": "Baidu_input_method_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Baidu_input_method_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Baidu_input_method_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Baidu_input_method_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1428,
+      "module_bytes": 1756
+    },
+    {
+      "name": "百度贴吧去广告",
+      "filename": "Tieba_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Tieba_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Tieba_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Tieba_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 4542,
+      "module_bytes": 5930
+    },
+    {
+      "name": "百度网盘去广告",
+      "filename": "BaiduNetDisk_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/BaiduNetDisk_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/BaiduNetDisk_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/BaiduNetDisk_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1260,
+      "module_bytes": 1455
+    },
+    {
+      "name": "百度网页去广告",
+      "filename": "BaiduSearchWebpage_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/BaiduSearchWebpage_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/BaiduSearchWebpage_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/BaiduSearchWebpage_remove_ads.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 732,
+      "module_bytes": 638
+    },
+    {
+      "name": "百度文库去广告",
+      "filename": "BaiduWenku_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/BaiduWenku_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/BaiduWenku_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/BaiduWenku_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1650,
+      "module_bytes": 3016
+    },
+    {
+      "name": "宝宝树孕育去广告",
+      "filename": "BabyTree_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/BabyTree_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/BabyTree_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/BabyTree_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1754,
+      "module_bytes": 1707
+    },
+    {
+      "name": "贝壳找房去广告",
+      "filename": "Beike_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Beike_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Beike_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Beike_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1731,
+      "module_bytes": 1733
+    },
+    {
+      "name": "哔哩哔哩漫画去广告",
+      "filename": "BiliComic_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/BiliComic_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/BiliComic_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/BiliComic_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2074,
+      "module_bytes": 2620
+    },
+    {
+      "name": "哔哩哔哩去广告",
+      "filename": "Bilibili_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Bilibili_remove_ads.lpx",
+      "catalog_date": "2026-09-14 09:14:54",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Bilibili_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-09-14 09:14:54",
+      "module": "modules/Bilibili_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Header Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 7427,
+      "module_bytes": 5272
+    },
+    {
+      "name": "比特球云盘去广告",
+      "filename": "BitqiuPan_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/BitqiuPan_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/BitqiuPan_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/BitqiuPan_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 760,
+      "module_bytes": 878
+    },
+    {
+      "name": "比心去广告",
+      "filename": "Bixin_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Bixin_remove_ads.lpx",
+      "catalog_date": "2026-08-28 17:10:45",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Bixin_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-08-28 17:10:45",
+      "module": "modules/Bixin_remove_ads.sgmodule",
+      "sections": [
+        "MITM"
+      ],
+      "source_bytes": 3166,
+      "module_bytes": 615
+    },
+    {
+      "name": "波点音乐去广告",
+      "filename": "BodianMusic_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/BodianMusic_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/BodianMusic_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/BodianMusic_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 3115,
+      "module_bytes": 4705
+    },
+    {
+      "name": "薄荷健康去广告",
+      "filename": "BooHee_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/BooHee_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/BooHee_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/BooHee_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1871,
+      "module_bytes": 2931
+    },
+    {
+      "name": "菜鸟去广告",
+      "filename": "Cainiao_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Cainiao_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Cainiao_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Cainiao_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "MITM"
+      ],
+      "source_bytes": 1666,
+      "module_bytes": 847
+    },
+    {
+      "name": "财新去广告",
+      "filename": "CaixinMedia_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/CaixinMedia_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/CaixinMedia_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/CaixinMedia_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2231,
+      "module_bytes": 2557
+    },
+    {
+      "name": "彩云天气去广告",
+      "filename": "ColorfulClouds_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/ColorfulClouds_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/ColorfulClouds_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/ColorfulClouds_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1245,
+      "module_bytes": 1297
+    },
+    {
+      "name": "测测去广告",
+      "filename": "Cece_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Cece_remove_ads.lpx",
+      "catalog_date": "2026-05-13 00:20:48",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Cece_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-05-13 00:20:48",
+      "module": "modules/Cece_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2945,
+      "module_bytes": 4492
+    },
+    {
+      "name": "超级课程表去广告",
+      "filename": "MyFriday_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/MyFriday_remove_ads.lpx",
+      "catalog_date": "2026-06-30 17:11:12",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/MyFriday_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-30 17:11:12",
+      "module": "modules/MyFriday_remove_ads.sgmodule",
+      "sections": [
+        "Rule"
+      ],
+      "source_bytes": 601,
+      "module_bytes": 498
+    },
+    {
+      "name": "车来了去广告",
+      "filename": "Chelaile_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Chelaile_remove_ads.lpx",
+      "catalog_date": "2026-07-04 19:58:28",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Chelaile_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-07-04 19:58:28",
+      "module": "modules/Chelaile_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2396,
+      "module_bytes": 2479
+    },
+    {
+      "name": "成分喵去广告",
+      "filename": "ChengFenMiao_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/ChengFenMiao_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/ChengFenMiao_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/ChengFenMiao_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 988,
+      "module_bytes": 1409
+    },
+    {
+      "name": "创维智慧云去广告",
+      "filename": "SkyworthDigitalPicamera_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/SkyworthDigitalPicamera_remove_ads.lpx",
+      "catalog_date": "2026-07-03 12:07:27",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/SkyworthDigitalPicamera_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-07-03 12:07:27",
+      "module": "modules/SkyworthDigitalPicamera_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 696,
+      "module_bytes": 664
+    },
+    {
+      "name": "触站去广告",
+      "filename": "Chuzhan_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Chuzhan_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Chuzhan_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Chuzhan_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1374,
+      "module_bytes": 1547
+    },
+    {
+      "name": "磁力宅播放器去广告",
+      "filename": "XFuse_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/XFuse_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/XFuse_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/XFuse_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "MITM"
+      ],
+      "source_bytes": 628,
+      "module_bytes": 550
+    },
+    {
+      "name": "代理链路检测",
+      "filename": "NodeLinkCheck.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/NodeLinkCheck.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/NodeLinkCheck.lpx",
+      "status": "experimental-generic",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/NodeLinkCheck.sgmodule",
+      "sections": [
+        "Script"
+      ]
+    },
+    {
+      "name": "大麦去广告",
+      "filename": "Damai_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Damai_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Damai_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Damai_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1140,
+      "module_bytes": 1874
+    },
+    {
+      "name": "大姨妈月经期助手去广告",
+      "filename": "Dayima_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Dayima_remove_ads.lpx",
+      "catalog_date": "2026-07-03 08:57:49",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Dayima_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-07-03 08:57:49",
+      "module": "modules/Dayima_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1208,
+      "module_bytes": 795
+    },
+    {
+      "name": "得间小说去广告",
+      "filename": "iReaderDejian_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/iReaderDejian_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/iReaderDejian_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/iReaderDejian_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1206,
+      "module_bytes": 1853
+    },
+    {
+      "name": "得物去广告",
+      "filename": "Dewu_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Dewu_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Dewu_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Dewu_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 2179,
+      "module_bytes": 1592
+    },
+    {
+      "name": "滴答出行去广告",
+      "filename": "DidaPincheTaxi_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/DidaPincheTaxi_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/DidaPincheTaxi_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/DidaPincheTaxi_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 671,
+      "module_bytes": 650
+    },
+    {
+      "name": "滴滴去广告",
+      "filename": "DiDi_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/DiDi_remove_ads.lpx",
+      "catalog_date": "2026-09-11 00:35:13",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/DiDi_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-09-11 00:35:13",
+      "module": "modules/DiDi_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 5700,
+      "module_bytes": 5000
+    },
+    {
+      "name": "叮咚买菜去广告",
+      "filename": "DingdongMaicai_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/DingdongMaicai_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/DingdongMaicai_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/DingdongMaicai_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2800,
+      "module_bytes": 3646
+    },
+    {
+      "name": "豆瓣去广告",
+      "filename": "DouBan_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/DouBan_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/DouBan_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/DouBan_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1227,
+      "module_bytes": 1553
+    },
+    {
+      "name": "豆瓣阅读去广告",
+      "filename": "DoubanRead_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/DoubanRead_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/DoubanRead_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/DoubanRead_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 902,
+      "module_bytes": 1155
+    },
+    {
+      "name": "斗鱼去广告",
+      "filename": "Douyu_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Douyu_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Douyu_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Douyu_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1637,
+      "module_bytes": 2175
+    },
+    {
+      "name": "堆糖去广告",
+      "filename": "DuiTang_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/DuiTang_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/DuiTang_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/DuiTang_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1628,
+      "module_bytes": 2157
+    },
+    {
+      "name": "多屏互动去广告",
+      "filename": "TCLnScreen_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/TCLnScreen_remove_ads.lpx",
+      "catalog_date": "2026-07-31 23:26:04",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/TCLnScreen_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-07-31 23:26:04",
+      "module": "modules/TCLnScreen_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1113,
+      "module_bytes": 1230
+    },
+    {
+      "name": "番茄小说去广告",
+      "filename": "DragonRead_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/DragonRead_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/DragonRead_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/DragonRead_remove_ads.sgmodule",
+      "sections": [
+        "Rule"
+      ],
+      "source_bytes": 1949,
+      "module_bytes": 1781
+    },
+    {
+      "name": "帆书去广告",
+      "filename": "KebidaDushu_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/KebidaDushu_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/KebidaDushu_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/KebidaDushu_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 3531,
+      "module_bytes": 3579
+    },
+    {
+      "name": "飞客去广告",
+      "filename": "FlyerTea_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/FlyerTea_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/FlyerTea_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/FlyerTea_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1402,
+      "module_bytes": 1521
+    },
+    {
+      "name": "飞猪旅行去广告",
+      "filename": "TaobaoTravel_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/TaobaoTravel_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/TaobaoTravel_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/TaobaoTravel_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1006,
+      "module_bytes": 1256
+    },
+    {
+      "name": "粉笔去广告",
+      "filename": "FenBi_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/FenBi_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/FenBi_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/FenBi_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2466,
+      "module_bytes": 3557
+    },
+    {
+      "name": "丰巢去广告",
+      "filename": "FC_Box_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/FC_Box_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/FC_Box_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/FC_Box_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1685,
+      "module_bytes": 2463
+    },
+    {
+      "name": "凤凰新闻去广告",
+      "filename": "ifengNews_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/ifengNews_remove_ads.lpx",
+      "catalog_date": "2026-07-01 11:32:25",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/ifengNews_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-07-01 11:32:25",
+      "module": "modules/ifengNews_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 3242,
+      "module_bytes": 3161
+    },
+    {
+      "name": "风鸟去广告",
+      "filename": "RiskBird_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/RiskBird_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/RiskBird_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/RiskBird_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 901,
+      "module_bytes": 964
+    },
+    {
+      "name": "纷玩岛去广告",
+      "filename": "LiveLab_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/LiveLab_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/LiveLab_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/LiveLab_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1081,
+      "module_bytes": 1113
+    },
+    {
+      "name": "盖得排行去广告",
+      "filename": "GuideRank_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/GuideRank_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/GuideRank_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/GuideRank_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2081,
+      "module_bytes": 2952
+    },
+    {
+      "name": "高德地图去广告",
+      "filename": "Amap_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Amap_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Amap_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 5519,
+      "module_bytes": 7188
+    },
+    {
+      "name": "稿定设计去广告",
+      "filename": "GaoDing_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/GaoDing_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/GaoDing_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/GaoDing_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1394,
+      "module_bytes": 1011
+    },
+    {
+      "name": "海雀去广告",
+      "filename": "AlcidaeVideo_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/AlcidaeVideo_remove_ads.lpx",
+      "catalog_date": "2026-07-03 11:35:16",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/AlcidaeVideo_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-07-03 11:35:16",
+      "module": "modules/AlcidaeVideo_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1068,
+      "module_bytes": 1200
+    },
+    {
+      "name": "哈罗去广告",
+      "filename": "EasyBike_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/EasyBike_remove_ads.lpx",
+      "catalog_date": "2026-08-22 12:51:37",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/EasyBike_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-08-22 12:51:37",
+      "module": "modules/EasyBike_remove_ads.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 739,
+      "module_bytes": 663
+    },
+    {
+      "name": "航旅纵横去广告",
+      "filename": "Umetrip_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Umetrip_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Umetrip_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Umetrip_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 788,
+      "module_bytes": 712
+    },
+    {
+      "name": "好轻去广告",
+      "filename": "YunmaiScale_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/YunmaiScale_remove_ads.lpx",
+      "catalog_date": "2026-07-15 10:19:17",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/YunmaiScale_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-07-15 10:19:17",
+      "module": "modules/YunmaiScale_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1433,
+      "module_bytes": 1168
+    },
+    {
+      "name": "盒马去广告",
+      "filename": "MrHema_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/MrHema_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/MrHema_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/MrHema_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 2628,
+      "module_bytes": 1654
+    },
+    {
+      "name": "华尔街见闻去广告",
+      "filename": "FinanceNews_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/FinanceNews_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/FinanceNews_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/FinanceNews_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1670,
+      "module_bytes": 2414
+    },
+    {
+      "name": "华住会去广告",
+      "filename": "HantingHotels_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/HantingHotels_remove_ads.lpx",
+      "catalog_date": "2026-06-12 16:06:38",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/HantingHotels_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-12 16:06:38",
+      "module": "modules/HantingHotels_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1471,
+      "module_bytes": 1244
+    },
+    {
+      "name": "慧生活798去广告",
+      "filename": "SmartLife_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/SmartLife_remove_ads.lpx",
+      "catalog_date": "2026-07-01 21:36:10",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/SmartLife_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-07-01 21:36:10",
+      "module": "modules/SmartLife_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 867,
+      "module_bytes": 1224
+    },
+    {
+      "name": "虎扑去广告",
+      "filename": "HUPU_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/HUPU_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/HUPU_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/HUPU_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2249,
+      "module_bytes": 2730
+    },
+    {
+      "name": "虎嗅去广告",
+      "filename": "Huxiu_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Huxiu_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Huxiu_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Huxiu_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1261,
+      "module_bytes": 1747
+    },
+    {
+      "name": "驾考宝典去广告",
+      "filename": "JiaKaoBaoDian_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/JiaKaoBaoDian_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/JiaKaoBaoDian_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/JiaKaoBaoDian_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1760,
+      "module_bytes": 2428
+    },
+    {
+      "name": "健康160去广告",
+      "filename": "91160_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/91160_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/91160_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/91160_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2048,
+      "module_bytes": 2064
+    },
+    {
+      "name": "剑网三无界去广告",
+      "filename": "SeasunJX3_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/SeasunJX3_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/SeasunJX3_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/SeasunJX3_remove_ads.sgmodule",
+      "sections": [
+        "General",
+        "URL Rewrite",
+        "MITM"
+      ],
+      "source_bytes": 770,
+      "module_bytes": 688
+    },
+    {
+      "name": "驾校一点通去广告",
+      "filename": "JiaXiaoDrive_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/JiaXiaoDrive_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/JiaXiaoDrive_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/JiaXiaoDrive_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1389,
+      "module_bytes": 1963
+    },
+    {
+      "name": "节点检测工具",
+      "filename": "Node_detection_tool.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Node_detection_tool.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Node_detection_tool.lpx",
+      "status": "experimental-generic",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Node_detection_tool.sgmodule",
+      "sections": [
+        "Script"
+      ]
+    },
+    {
+      "name": "京东比价",
+      "filename": "JD_Price.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/JD_Price.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/JD_Price.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/JD_Price.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1098,
+      "module_bytes": 1046
+    },
+    {
+      "name": "京东去广告",
+      "filename": "JD_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/JD_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/JD_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/JD_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1260,
+      "module_bytes": 1520
+    },
+    {
+      "name": "京东外卖去广告",
+      "filename": "JDWaimai_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/JDWaimai_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/JDWaimai_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/JDWaimai_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1854,
+      "module_bytes": 1245
+    },
+    {
+      "name": "金山文档去广告",
+      "filename": "WPS_Documents_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/WPS_Documents_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/WPS_Documents_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/WPS_Documents_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 921,
+      "module_bytes": 1035
+    },
+    {
+      "name": "金十数据去广告",
+      "filename": "Jin10Data_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Jin10Data_remove_ads.lpx",
+      "catalog_date": "2026-08-27 06:29:33",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Jin10Data_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-08-27 06:29:33",
+      "module": "modules/Jin10Data_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1139,
+      "module_bytes": 1462
+    },
+    {
+      "name": "看家王去广告",
+      "filename": "ChatCam_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/ChatCam_remove_ads.lpx",
+      "catalog_date": "2026-07-02 19:32:38",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/ChatCam_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-07-02 19:32:38",
+      "module": "modules/ChatCam_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 794,
+      "module_bytes": 794
+    },
+    {
+      "name": "可莉广告过滤器",
+      "filename": "Remove_ads_by_keli.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Remove_ads_by_keli.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Remove_ads_by_keli.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Remove_ads_by_keli.sgmodule",
+      "sections": [
+        "Rule",
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 9381,
+      "module_bytes": 12244
+    },
+    {
+      "name": "口袋壁纸去广告",
+      "filename": "ShoujiDesk_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/ShoujiDesk_remove_ads.lpx",
+      "catalog_date": "2026-09-15 23:26:38",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/ShoujiDesk_remove_ads.lpx",
+      "status": "missing-source"
+    },
+    {
+      "name": "快递100去广告",
+      "filename": "KuaiDi100_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/KuaiDi100_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/KuaiDi100_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/KuaiDi100_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1133,
+      "module_bytes": 1808
+    },
+    {
+      "name": "快对去广告",
+      "filename": "KuaiDuiZuoYe_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/KuaiDuiZuoYe_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/KuaiDuiZuoYe_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/KuaiDuiZuoYe_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1105,
+      "module_bytes": 1585
+    },
+    {
+      "name": "快捷搜索",
+      "filename": "QuickSearch.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/QuickSearch.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/QuickSearch.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/QuickSearch.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "MITM"
+      ],
+      "source_bytes": 1377,
+      "module_bytes": 1300
+    },
+    {
+      "name": "快看漫画去广告",
+      "filename": "KuaiKanComic_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/KuaiKanComic_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/KuaiKanComic_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/KuaiKanComic_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 3490,
+      "module_bytes": 4551
+    },
+    {
+      "name": "快手去广告",
+      "filename": "KuaiShou_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/KuaiShou_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/KuaiShou_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/KuaiShou_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2541,
+      "module_bytes": 2933
+    },
+    {
+      "name": "快影去广告",
+      "filename": "KwaiVideoeditor_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/KwaiVideoeditor_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/KwaiVideoeditor_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/KwaiVideoeditor_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1331,
+      "module_bytes": 1163
+    },
+    {
+      "name": "夸克去广告",
+      "filename": "QuarkBrowser_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/QuarkBrowser_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/QuarkBrowser_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/QuarkBrowser_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 26528,
+      "module_bytes": 32421
+    },
+    {
+      "name": "夸克扫描王去广告",
+      "filename": "QuarkScanking_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/QuarkScanking_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/QuarkScanking_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/QuarkScanking_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 5542,
+      "module_bytes": 6901
+    },
+    {
+      "name": "酷安去广告",
+      "filename": "CoolApk_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/CoolApk_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/CoolApk_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/CoolApk_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 2050,
+      "module_bytes": 605
+    },
+    {
+      "name": "酷狗概念版去广告",
+      "filename": "KuGouYouth_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/KuGouYouth_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/KuGouYouth_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/KuGouYouth_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1407,
+      "module_bytes": 1763
+    },
+    {
+      "name": "酷狗铃声去广告",
+      "filename": "KGRing_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/KGRing_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/KGRing_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/KGRing_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 687,
+      "module_bytes": 672
+    },
+    {
+      "name": "酷狗音乐去广告",
+      "filename": "KuGou_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/KuGou_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/KuGou_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/KuGou_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 2706,
+      "module_bytes": 3250
+    },
+    {
+      "name": "库街区去广告",
+      "filename": "KuroBBS_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/KuroBBS_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/KuroBBS_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/KuroBBS_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 858,
+      "module_bytes": 1046
+    },
+    {
+      "name": "酷我音乐去广告",
+      "filename": "Kuwo_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Kuwo_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Kuwo_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Kuwo_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1884,
+      "module_bytes": 1842
+    },
+    {
+      "name": "乐播投屏去广告",
+      "filename": "TV_Assistant_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/TV_Assistant_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/TV_Assistant_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/TV_Assistant_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1338,
+      "module_bytes": 1605
+    },
+    {
+      "name": "两步路户外助手去广告",
+      "filename": "2bulu_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/2bulu_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/2bulu_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/2bulu_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1072,
+      "module_bytes": 897
+    },
+    {
+      "name": "联掌门户去广告",
+      "filename": "LZMH_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/LZMH_remove_ads.lpx",
+      "catalog_date": "2026-08-22 02:46:00",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/LZMH_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-08-22 02:46:00",
+      "module": "modules/LZMH_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1595,
+      "module_bytes": 2373
+    },
+    {
+      "name": "萝卜快跑去广告",
+      "filename": "RoboTaxi_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/RoboTaxi_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/RoboTaxi_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/RoboTaxi_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 850,
+      "module_bytes": 970
+    },
+    {
+      "name": "马蜂窝去广告",
+      "filename": "MaFengWo_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/MaFengWo_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/MaFengWo_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/MaFengWo_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 967,
+      "module_bytes": 678
+    },
+    {
+      "name": "马克水印相机去广告",
+      "filename": "marki_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/marki_remove_ads.lpx",
+      "catalog_date": "2026-08-22 01:54:03",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/marki_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-08-22 01:54:03",
+      "module": "modules/marki_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 899,
+      "module_bytes": 1091
+    },
+    {
+      "name": "芒果TV去广告",
+      "filename": "MangoTV_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/MangoTV_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/MangoTV_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/MangoTV_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 4065,
+      "module_bytes": 3661
+    },
+    {
+      "name": "漫客栈去广告",
+      "filename": "MKZ_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/MKZ_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/MKZ_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/MKZ_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1115,
+      "module_bytes": 1245
+    },
+    {
+      "name": "猫耳FM去广告",
+      "filename": "CatEarFM_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/CatEarFM_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/CatEarFM_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/CatEarFM_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2094,
+      "module_bytes": 2403
+    },
+    {
+      "name": "美丽修行去广告",
+      "filename": "Meizhixiuxing_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Meizhixiuxing_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Meizhixiuxing_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Meizhixiuxing_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1692,
+      "module_bytes": 2435
+    },
+    {
+      "name": "每日赛车去广告",
+      "filename": "MeiRiSaiChe_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/MeiRiSaiChe_remove_ads.lpx",
+      "catalog_date": "2026-07-02 20:41:31",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/MeiRiSaiChe_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-07-02 20:41:31",
+      "module": "modules/MeiRiSaiChe_remove_ads.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 783,
+      "module_bytes": 835
+    },
+    {
+      "name": "美食杰去广告",
+      "filename": "MeiShiJie_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/MeiShiJie_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/MeiShiJie_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/MeiShiJie_remove_ads.sgmodule",
+      "sections": [
+        "MITM"
+      ],
+      "source_bytes": 713,
+      "module_bytes": 446
+    },
+    {
+      "name": "美图秀秀去广告",
+      "filename": "MeiTu_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/MeiTu_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/MeiTu_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/MeiTu_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 698,
+      "module_bytes": 827
+    },
+    {
+      "name": "美颜相机去广告",
+      "filename": "MeituMYXJ_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/MeituMYXJ_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/MeituMYXJ_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/MeituMYXJ_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1376,
+      "module_bytes": 1669
+    },
+    {
+      "name": "美柚去广告",
+      "filename": "MeetYou_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/MeetYou_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/MeetYou_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/MeetYou_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "URL Rewrite",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 915,
+      "module_bytes": 1061
+    },
+    {
+      "name": "萌娘百科去广告",
+      "filename": "MoeGirlWiki_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/MoeGirlWiki_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/MoeGirlWiki_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/MoeGirlWiki_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "MITM"
+      ],
+      "source_bytes": 851,
+      "module_bytes": 769
+    },
+    {
+      "name": "米游社去广告",
+      "filename": "miHoYoBBS_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/miHoYoBBS_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/miHoYoBBS_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/miHoYoBBS_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1531,
+      "module_bytes": 2448
+    },
+    {
+      "name": "墨迹天气去广告",
+      "filename": "MojiWeather_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/MojiWeather_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/MojiWeather_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/MojiWeather_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1464,
+      "module_bytes": 1411
+    },
+    {
+      "name": "脉脉去广告",
+      "filename": "MaiMai_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/MaiMai_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/MaiMai_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/MaiMai_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1232,
+      "module_bytes": 1586
+    },
+    {
+      "name": "摩天轮去广告",
+      "filename": "FerrisWheel_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/FerrisWheel_remove_ads.lpx",
+      "catalog_date": "2026-06-02 02:30:18",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/FerrisWheel_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-02 02:30:18",
+      "module": "modules/FerrisWheel_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 993,
+      "module_bytes": 1245
+    },
+    {
+      "name": "摩托范去广告",
+      "filename": "MotorFans_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/MotorFans_remove_ads.lpx",
+      "catalog_date": "2026-08-23 11:48:06",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/MotorFans_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-08-23 11:48:06",
+      "module": "modules/MotorFans_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1791,
+      "module_bytes": 2271
+    },
+    {
+      "name": "南网在线去广告",
+      "filename": "CSG_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/CSG_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/CSG_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/CSG_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 956,
+      "module_bytes": 788
+    },
+    {
+      "name": "排班日历去广告",
+      "filename": "AxWorkSchedule_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/AxWorkSchedule_remove_ads.lpx",
+      "catalog_date": "2026-07-02 00:10:15",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/AxWorkSchedule_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-07-02 00:10:15",
+      "module": "modules/AxWorkSchedule_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 793,
+      "module_bytes": 906
+    },
+    {
+      "name": "胖乖生活去广告",
+      "filename": "PangguaiLife_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/PangguaiLife_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/PangguaiLife_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/PangguaiLife_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1239,
+      "module_bytes": 2033
+    },
+    {
+      "name": "配音秀去广告",
+      "filename": "DubbingShow_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/DubbingShow_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/DubbingShow_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/DubbingShow_remove_ads.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1166,
+      "module_bytes": 1962
+    },
+    {
+      "name": "拼多多去广告",
+      "filename": "PinDuoDuo_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/PinDuoDuo_remove_ads.lpx",
+      "catalog_date": "2026-07-11 20:21:39",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/PinDuoDuo_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-07-11 20:21:39",
+      "module": "modules/PinDuoDuo_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 4835,
+      "module_bytes": 6986
+    },
+    {
+      "name": "皮皮虾去广告",
+      "filename": "PiPiXia_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/PiPiXia_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/PiPiXia_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/PiPiXia_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1132,
+      "module_bytes": 909
+    },
+    {
+      "name": "朴朴超市去广告",
+      "filename": "PuPuMall_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/PuPuMall_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/PuPuMall_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/PuPuMall_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2237,
+      "module_bytes": 2235
+    },
+    {
+      "name": "前程无忧去广告",
+      "filename": "51Job_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/51Job_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/51Job_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/51Job_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1684,
+      "module_bytes": 2818
+    },
+    {
+      "name": "汽车之家去广告",
+      "filename": "AutoHome_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/AutoHome_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/AutoHome_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/AutoHome_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 4423,
+      "module_bytes": 5702
+    },
+    {
+      "name": "起点读书去广告",
+      "filename": "QiDian_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/QiDian_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/QiDian_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/QiDian_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2362,
+      "module_bytes": 3839
+    },
+    {
+      "name": "七猫小说去广告",
+      "filename": "SevenCat_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/SevenCat_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/SevenCat_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/SevenCat_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1853,
+      "module_bytes": 2717
+    },
+    {
+      "name": "亲宝宝去广告",
+      "filename": "Qbb_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Qbb_remove_ads.lpx",
+      "catalog_date": "2026-08-26 11:08:19",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Qbb_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-08-26 11:08:19",
+      "module": "modules/Qbb_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1969,
+      "module_bytes": 1059
+    },
+    {
+      "name": "蜻蜓FM去广告",
+      "filename": "QtingFM_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/QtingFM_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/QtingFM_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/QtingFM_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2269,
+      "module_bytes": 3720
+    },
+    {
+      "name": "汽水音乐去广告",
+      "filename": "SodaMusic_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/SodaMusic_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/SodaMusic_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/SodaMusic_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2922,
+      "module_bytes": 3617
+    },
+    {
+      "name": "启信宝去广告",
+      "filename": "QiXinBao_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/QiXinBao_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/QiXinBao_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/QiXinBao_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1446,
+      "module_bytes": 1979
+    },
+    {
+      "name": "全民K歌去广告",
+      "filename": "QQKSong_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/QQKSong_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/QQKSong_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/QQKSong_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "URL Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 2298,
+      "module_bytes": 2437
+    },
+    {
+      "name": "瑞幸咖啡去广告",
+      "filename": "LuckinCoffee_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/LuckinCoffee_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/LuckinCoffee_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/LuckinCoffee_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "MITM"
+      ],
+      "source_bytes": 1185,
+      "module_bytes": 1108
+    },
+    {
+      "name": "闪动校园去广告",
+      "filename": "ShandongSchool_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/ShandongSchool_remove_ads.lpx",
+      "catalog_date": "2026-09-21 00:06:55",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/ShandongSchool_remove_ads.lpx",
+      "status": "missing-source"
+    },
+    {
+      "name": "省钱快报去广告",
+      "filename": "YueDanBa_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/YueDanBa_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/YueDanBa_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/YueDanBa_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1195,
+      "module_bytes": 1036
+    },
+    {
+      "name": "什么值得买去广告",
+      "filename": "smzdm_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/smzdm_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/smzdm_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/smzdm_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 3801,
+      "module_bytes": 5044
+    },
+    {
+      "name": "收银通商户端去广告",
+      "filename": "ShouYinTongMerchant_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/ShouYinTongMerchant_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/ShouYinTongMerchant_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/ShouYinTongMerchant_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 976,
+      "module_bytes": 1221
+    },
+    {
+      "name": "顺丰速运去广告",
+      "filename": "SF-Express_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/SF-Express_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/SF-Express_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/SF-Express_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 24945,
+      "module_bytes": 24866
+    },
+    {
+      "name": "书旗小说去广告",
+      "filename": "ShuQiCenterReader_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/ShuQiCenterReader_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/ShuQiCenterReader_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/ShuQiCenterReader_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1262,
+      "module_bytes": 1400
+    },
+    {
+      "name": "数字心动去广告",
+      "filename": "DigitalHeartbeat_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/DigitalHeartbeat_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/DigitalHeartbeat_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/DigitalHeartbeat_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1791,
+      "module_bytes": 1938
+    },
+    {
+      "name": "随手记去广告",
+      "filename": "KingdeeMyMoney_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/KingdeeMyMoney_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/KingdeeMyMoney_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/KingdeeMyMoney_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1145,
+      "module_bytes": 1409
+    },
+    {
+      "name": "淘宝去广告",
+      "filename": "Taobao_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Taobao_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Taobao_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Taobao_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2358,
+      "module_bytes": 3045
+    },
+    {
+      "name": "淘票票去广告",
+      "filename": "Taopiaopiao_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Taopiaopiao_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Taopiaopiao_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Taopiaopiao_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1675,
+      "module_bytes": 1428
+    },
+    {
+      "name": "他趣去广告",
+      "filename": "Taqu_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Taqu_remove_ads.lpx",
+      "catalog_date": "2026-06-12 14:11:11",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Taqu_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-12 14:11:11",
+      "module": "modules/Taqu_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 2080,
+      "module_bytes": 1850
+    },
+    {
+      "name": "腾讯视频去广告",
+      "filename": "Tencent_Video_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Tencent_Video_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Tencent_Video_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Tencent_Video_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1781,
+      "module_bytes": 1738
+    },
+    {
+      "name": "腾讯文档去广告",
+      "filename": "TXDocs_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/TXDocs_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/TXDocs_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/TXDocs_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 713,
+      "module_bytes": 766
+    },
+    {
+      "name": "天猫校园去广告",
+      "filename": "TmallCampus_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/TmallCampus_remove_ads.lpx",
+      "catalog_date": "2026-06-30 18:13:11",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/TmallCampus_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-30 18:13:11",
+      "module": "modules/TmallCampus_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1518,
+      "module_bytes": 1683
+    },
+    {
+      "name": "天气通去广告",
+      "filename": "TianQiTong_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/TianQiTong_remove_ads.lpx",
+      "catalog_date": "2026-07-02 20:09:47",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/TianQiTong_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-07-02 20:09:47",
+      "module": "modules/TianQiTong_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1100,
+      "module_bytes": 1209
+    },
+    {
+      "name": "天气预报去广告",
+      "filename": "iReaderCityWeather_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/iReaderCityWeather_remove_ads.lpx",
+      "catalog_date": "2026-06-30 19:41:51",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/iReaderCityWeather_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-30 19:41:51",
+      "module": "modules/iReaderCityWeather_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local"
+      ],
+      "source_bytes": 1193,
+      "module_bytes": 1103
+    },
+    {
+      "name": "天天跳绳去广告",
+      "filename": "CrazyRope_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/CrazyRope_remove_ads.lpx",
+      "catalog_date": "2026-07-01 00:19:10",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/CrazyRope_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-07-01 00:19:10",
+      "module": "modules/CrazyRope_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1476,
+      "module_bytes": 2073
+    },
+    {
+      "name": "图怪兽去广告",
+      "filename": "TuGuaiShou_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/TuGuaiShou_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/TuGuaiShou_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/TuGuaiShou_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 748,
+      "module_bytes": 866
+    },
+    {
+      "name": "推栏去广告",
+      "filename": "Daily_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Daily_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Daily_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Daily_remove_ads.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 623,
+      "module_bytes": 767
+    },
+    {
+      "name": "挖财记账去广告",
+      "filename": "WaCaiJiZhang_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/WaCaiJiZhang_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/WaCaiJiZhang_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/WaCaiJiZhang_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 799,
+      "module_bytes": 914
+    },
+    {
+      "name": "挖财记账去广告",
+      "filename": "Wacai_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Wacai_remove_ads.lpx",
+      "catalog_date": "2026-06-30 22:54:46",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Wacai_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-30 22:54:46",
+      "module": "modules/Wacai_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 982,
+      "module_bytes": 1072
+    },
+    {
+      "name": "网易大神去广告",
+      "filename": "NetEaseGodlike_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/NetEaseGodlike_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/NetEaseGodlike_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/NetEaseGodlike_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 949,
+      "module_bytes": 865
+    },
+    {
+      "name": "网易新闻去广告",
+      "filename": "NeteaseNews_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/NeteaseNews_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/NeteaseNews_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/NeteaseNews_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "URL Rewrite",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1839,
+      "module_bytes": 1799
+    },
+    {
+      "name": "网易有道词典去广告",
+      "filename": "YoudaoDict_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/YoudaoDict_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/YoudaoDict_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/YoudaoDict_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 983,
+      "module_bytes": 1367
+    },
+    {
+      "name": "网易邮箱大师去广告",
+      "filename": "MailMaster_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/MailMaster_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/MailMaster_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/MailMaster_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1357,
+      "module_bytes": 1425
+    },
+    {
+      "name": "网易云音乐去广告",
+      "filename": "NeteaseCloudMusic_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/NeteaseCloudMusic_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/NeteaseCloudMusic_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/NeteaseCloudMusic_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 4661,
+      "module_bytes": 4425
+    },
+    {
+      "name": "完美世界电竞去广告",
+      "filename": "PerfectWorldEsport_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/PerfectWorldEsport_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/PerfectWorldEsport_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/PerfectWorldEsport_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 744,
+      "module_bytes": 947
+    },
+    {
+      "name": "微博轻享版去广告",
+      "filename": "Weibo_intl_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Weibo_intl_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Weibo_intl_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Weibo_intl_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2493,
+      "module_bytes": 2273
+    },
+    {
+      "name": "微博去广告",
+      "filename": "Weibo_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Weibo_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Weibo_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Weibo_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 6474,
+      "module_bytes": 7861
+    },
+    {
+      "name": "微店去广告",
+      "filename": "Weidian_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Weidian_remove_ads.lpx",
+      "catalog_date": "2026-08-27 22:53:53",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Weidian_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-08-27 22:53:53",
+      "module": "modules/Weidian_remove_ads.sgmodule",
+      "sections": [
+        "MITM"
+      ],
+      "source_bytes": 2394,
+      "module_bytes": 516
+    },
+    {
+      "name": "威锋去广告",
+      "filename": "WPForum_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/WPForum_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/WPForum_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/WPForum_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 761,
+      "module_bytes": 626
+    },
+    {
+      "name": "微脉圈去广告",
+      "filename": "Weimai_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Weimai_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Weimai_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Weimai_remove_ads.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 791,
+      "module_bytes": 908
+    },
+    {
+      "name": "微信公众号去广告",
+      "filename": "Weixin_Official_Accounts_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Weixin_Official_Accounts_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Weixin_Official_Accounts_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Weixin_Official_Accounts_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 739,
+      "module_bytes": 771
+    },
+    {
+      "name": "微信外部链接解锁",
+      "filename": "Weixin_external_links_unlock.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Weixin_external_links_unlock.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Weixin_external_links_unlock.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Weixin_external_links_unlock.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1084,
+      "module_bytes": 1000
+    },
+    {
+      "name": "微信小程序去广告",
+      "filename": "WexinMiniPrograms_Remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/WexinMiniPrograms_Remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/WexinMiniPrograms_Remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/WexinMiniPrograms_Remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 15383,
+      "module_bytes": 22090
+    },
+    {
+      "name": "沃尔玛去广告",
+      "filename": "Walmart_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Walmart_remove_ads.lpx",
+      "catalog_date": "2026-06-02 02:30:18",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Walmart_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-02 02:30:18",
+      "module": "modules/Walmart_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1224,
+      "module_bytes": 992
+    },
+    {
+      "name": "蜗牛睡眠去广告",
+      "filename": "SnailSleep_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/SnailSleep_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/SnailSleep_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/SnailSleep_remove_ads.sgmodule",
+      "sections": [
+        "Rule"
+      ],
+      "source_bytes": 605,
+      "module_bytes": 503
+    },
+    {
+      "name": "无他相机去广告",
+      "filename": "WutaCamera_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/WutaCamera_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/WutaCamera_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/WutaCamera_remove_ads.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 961,
+      "module_bytes": 969
+    },
+    {
+      "name": "下厨房去广告",
+      "filename": "XiaChuFang_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/XiaChuFang_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/XiaChuFang_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/XiaChuFang_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1620,
+      "module_bytes": 1668
+    },
+    {
+      "name": "香港抖音去广告",
+      "filename": "HKDouYin_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/HKDouYin_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/HKDouYin_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/HKDouYin_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "URL Rewrite",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2491,
+      "module_bytes": 2541
+    },
+    {
+      "name": "向日葵去广告",
+      "filename": "OraySunlogin_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/OraySunlogin_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/OraySunlogin_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/OraySunlogin_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 637,
+      "module_bytes": 616
+    },
+    {
+      "name": "闲鱼去广告",
+      "filename": "FleaMarket_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/FleaMarket_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/FleaMarket_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/FleaMarket_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 5593,
+      "module_bytes": 2408
+    },
+    {
+      "name": "小白智慧打印去广告",
+      "filename": "XiaobaiPrint_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/XiaobaiPrint_remove_ads.lpx",
+      "catalog_date": "2026-07-03 10:43:28",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/XiaobaiPrint_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-07-03 10:43:28",
+      "module": "modules/XiaobaiPrint_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1452,
+      "module_bytes": 1341
+    },
+    {
+      "name": "小蚕霸王餐去广告",
+      "filename": "XiaoCan_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/XiaoCan_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/XiaoCan_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/XiaoCan_remove_ads.sgmodule",
+      "sections": [
+        "Header Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1033,
+      "module_bytes": 1189
+    },
+    {
+      "name": "小店掌柜去广告",
+      "filename": "ShopKeeperAdmin_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/ShopKeeperAdmin_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/ShopKeeperAdmin_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/ShopKeeperAdmin_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 637,
+      "module_bytes": 613
+    },
+    {
+      "name": "小黑盒去广告",
+      "filename": "XiaoHeiHe_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/XiaoHeiHe_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/XiaoHeiHe_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/XiaoHeiHe_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 897,
+      "module_bytes": 605
+    },
+    {
+      "name": "小红书去广告",
+      "filename": "RedPaper_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/RedPaper_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/RedPaper_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/RedPaper_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 4510,
+      "module_bytes": 5817
+    },
+    {
+      "name": "小桔充电去广告",
+      "filename": "XiaojukejiCharge_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/XiaojukejiCharge_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/XiaojukejiCharge_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/XiaojukejiCharge_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1271,
+      "module_bytes": 1621
+    },
+    {
+      "name": "小喵看书去广告",
+      "filename": "MiaoRead_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/MiaoRead_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/MiaoRead_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/MiaoRead_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "MITM"
+      ],
+      "source_bytes": 610,
+      "module_bytes": 529
+    },
+    {
+      "name": "小米音箱去广告",
+      "filename": "XiaomiSpeaker_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/XiaomiSpeaker_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/XiaomiSpeaker_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/XiaomiSpeaker_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 834,
+      "module_bytes": 948
+    },
+    {
+      "name": "小睡眠去广告",
+      "filename": "HeartideBrainWave_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/HeartideBrainWave_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/HeartideBrainWave_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/HeartideBrainWave_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1448,
+      "module_bytes": 2173
+    },
+    {
+      "name": "小象超市去广告",
+      "filename": "iMaiCai_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/iMaiCai_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/iMaiCai_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/iMaiCai_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1376,
+      "module_bytes": 1786
+    },
+    {
+      "name": "小宇宙去广告",
+      "filename": "CosmosPodcast_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/CosmosPodcast_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/CosmosPodcast_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/CosmosPodcast_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 913,
+      "module_bytes": 929
+    },
+    {
+      "name": "喜马拉雅去广告",
+      "filename": "Himalaya_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Himalaya_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Himalaya_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Himalaya_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 3872,
+      "module_bytes": 4616
+    },
+    {
+      "name": "行者户外去广告",
+      "filename": "OnTheWay_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/OnTheWay_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/OnTheWay_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/OnTheWay_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1091,
+      "module_bytes": 1310
+    },
+    {
+      "name": "新浪财经去广告",
+      "filename": "SinaStock_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/SinaStock_remove_ads.lpx",
+      "catalog_date": "2026-08-26 14:19:33",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/SinaStock_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-08-26 14:19:33",
+      "module": "modules/SinaStock_remove_ads.sgmodule",
+      "sections": [
+        "MITM"
+      ],
+      "source_bytes": 2347,
+      "module_bytes": 599
+    },
+    {
+      "name": "雪球去广告",
+      "filename": "Snowball_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Snowball_remove_ads.lpx",
+      "catalog_date": "2026-08-24 19:33:07",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Snowball_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-08-24 19:33:07",
+      "module": "modules/Snowball_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2890,
+      "module_bytes": 4237
+    },
+    {
+      "name": "学习通去广告",
+      "filename": "ChaoXingStudy_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/ChaoXingStudy_remove_ads.lpx",
+      "catalog_date": "2026-06-30 19:09:23",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/ChaoXingStudy_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-30 19:09:23",
+      "module": "modules/ChaoXingStudy_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1503,
+      "module_bytes": 1830
+    },
+    {
+      "name": "迅雷去广告",
+      "filename": "XunLei_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/XunLei_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/XunLei_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/XunLei_remove_ads.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1101,
+      "module_bytes": 960
+    },
+    {
+      "name": "医考帮去广告",
+      "filename": "YiKaoBang_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/YiKaoBang_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/YiKaoBang_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/YiKaoBang_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 729,
+      "module_bytes": 779
+    },
+    {
+      "name": "一刻相册去广告",
+      "filename": "BaiduPhoto_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/BaiduPhoto_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/BaiduPhoto_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/BaiduPhoto_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 900,
+      "module_bytes": 1186
+    },
+    {
+      "name": "萤石云视频去广告",
+      "filename": "VideoGo_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/VideoGo_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/VideoGo_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/VideoGo_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 990,
+      "module_bytes": 1257
+    },
+    {
+      "name": "一甜相机去广告",
+      "filename": "Yitian_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Yitian_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Yitian_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Yitian_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 957,
+      "module_bytes": 1248
+    },
+    {
+      "name": "易校园去广告",
+      "filename": "YiSchool_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/YiSchool_remove_ads.lpx",
+      "catalog_date": "2026-07-01 22:53:08",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/YiSchool_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-07-01 22:53:08",
+      "module": "modules/YiSchool_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1051,
+      "module_bytes": 1071
+    },
+    {
+      "name": "有道翻译官去广告",
+      "filename": "YoudaoTrans_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/YoudaoTrans_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/YoudaoTrans_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/YoudaoTrans_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1180,
+      "module_bytes": 1571
+    },
+    {
+      "name": "有道云笔记去广告",
+      "filename": "YoudaoNote_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/YoudaoNote_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/YoudaoNote_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/YoudaoNote_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 639,
+      "module_bytes": 620
+    },
+    {
+      "name": "优酷视频去广告",
+      "filename": "YouKu_Video_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/YouKu_Video_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/YouKu_Video_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/YouKu_Video_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1852,
+      "module_bytes": 2177
+    },
+    {
+      "name": "阅友去广告",
+      "filename": "Yueyou_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Yueyou_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Yueyou_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Yueyou_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1318,
+      "module_bytes": 1563
+    },
+    {
+      "name": "云鲸智能去广告",
+      "filename": "NarwelRobots_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/NarwelRobots_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/NarwelRobots_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/NarwelRobots_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 888,
+      "module_bytes": 1003
+    },
+    {
+      "name": "掌上无畏契约去广告",
+      "filename": "ValorantBible_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/ValorantBible_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/ValorantBible_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/ValorantBible_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 832,
+      "module_bytes": 946
+    },
+    {
+      "name": "掌上英雄联盟去广告",
+      "filename": "LOL_Bible_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/LOL_Bible_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/LOL_Bible_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/LOL_Bible_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1072,
+      "module_bytes": 1395
+    },
+    {
+      "name": "掌阅去广告",
+      "filename": "iReader_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/iReader_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/iReader_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/iReader_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1537,
+      "module_bytes": 1915
+    },
+    {
+      "name": "直播吧去广告",
+      "filename": "Zhibo8_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Zhibo8_remove_ads.lpx",
+      "catalog_date": "2026-09-14 15:46:32",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Zhibo8_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-09-14 15:46:32",
+      "module": "modules/Zhibo8_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2226,
+      "module_bytes": 2901
+    },
+    {
+      "name": "智慧苏州去广告",
+      "filename": "SuZhouCitizenCard_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/SuZhouCitizenCard_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/SuZhouCitizenCard_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/SuZhouCitizenCard_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 898,
+      "module_bytes": 825
+    },
+    {
+      "name": "知乎去广告",
+      "filename": "Zhihu_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Zhihu_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Zhihu_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Zhihu_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 4369,
+      "module_bytes": 5038
+    },
+    {
+      "name": "智联招聘去广告",
+      "filename": "ZhiLianZhaoPin_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/ZhiLianZhaoPin_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/ZhiLianZhaoPin_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/ZhiLianZhaoPin_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1206,
+      "module_bytes": 1431
+    },
+    {
+      "name": "知识星球去水印",
+      "filename": "UnnooQuan_remove_watermark.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/UnnooQuan_remove_watermark.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/UnnooQuan_remove_watermark.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/UnnooQuan_remove_watermark.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 828,
+      "module_bytes": 1243
+    },
+    {
+      "name": "中国人保去广告",
+      "filename": "PICC_Insurance_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/PICC_Insurance_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/PICC_Insurance_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/PICC_Insurance_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1237,
+      "module_bytes": 1324
+    },
+    {
+      "name": "中国天气去广告",
+      "filename": "WeatherChina_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/WeatherChina_remove_ads.lpx",
+      "catalog_date": "2026-06-30 21:38:58",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/WeatherChina_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-30 21:38:58",
+      "module": "modules/WeatherChina_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 690,
+      "module_bytes": 669
+    },
+    {
+      "name": "中国移动云盘去广告",
+      "filename": "mobileClouds_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/mobileClouds_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/mobileClouds_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/mobileClouds_remove_ads.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 1067,
+      "module_bytes": 1000
+    },
+    {
+      "name": "中华万年历去广告",
+      "filename": "EtouchEcalendar_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/EtouchEcalendar_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/EtouchEcalendar_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/EtouchEcalendar_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1843,
+      "module_bytes": 1307
+    },
+    {
+      "name": "转转去广告",
+      "filename": "ZhuanZhuan_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/ZhuanZhuan_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/ZhuanZhuan_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/ZhuanZhuan_remove_ads.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "source_bytes": 2975,
+      "module_bytes": 3345
+    },
+    {
+      "name": "自动加入TestFlight",
+      "filename": "Auto_Join_TF.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/Auto_Join_TF.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Auto_Join_TF.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/Auto_Join_TF.sgmodule",
+      "sections": [
+        "Script"
+      ],
+      "source_bytes": 1683,
+      "module_bytes": 1082
+    },
+    {
+      "name": "纵横小说去广告",
+      "filename": "ZongHeng_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/ZongHeng_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/ZongHeng_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/ZongHeng_remove_ads.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 681,
+      "module_bytes": 681
+    },
+    {
+      "name": "最美壁纸去广告",
+      "filename": "iWallBiZhi_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/iWallBiZhi_remove_ads.lpx",
+      "catalog_date": "2026-08-27 20:03:32",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/iWallBiZhi_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-08-27 20:03:32",
+      "module": "modules/iWallBiZhi_remove_ads.sgmodule",
+      "sections": [
+        "MITM"
+      ],
+      "source_bytes": 1425,
+      "module_bytes": 485
+    },
+    {
+      "name": "最右去广告",
+      "filename": "ZuiYou_remove_ads.lpx",
+      "source_url": "https://kelee.one/Tool/Loon/Lpx/ZuiYou_remove_ads.lpx",
+      "catalog_date": "2026-06-01 17:11:35",
+      "mirror_url": "https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/ZuiYou_remove_ads.lpx",
+      "status": "converted",
+      "mirror_date": "2026-06-01 17:11:35",
+      "module": "modules/ZuiYou_remove_ads.sgmodule",
+      "sections": [
+        "Rule",
+        "URL Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "source_bytes": 1018,
+      "module_bytes": 1086
+    }
+  ]
+}

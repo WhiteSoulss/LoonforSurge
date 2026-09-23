@@ -1,0 +1,19 @@
+# Original Loon plugin: https://kelee.one/Tool/Loon/Lpx/Daily_remove_ads.lpx
+# LPX mirror snapshot: https://github.com/Qmxn/Tools/blob/f849c3730ed760b36d4b79d1d793c5e8176d8a87/Plugin/Daily_remove_ads.lpx
+# Automatically converted by Script-Hub: https://github.com/Script-Hub-Org/Script-Hub
+# Compatibility with Surge requires per-plugin testing.
+#!name=推栏去广告
+#!desc=过滤推栏广告
+#!author=可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Daily.png
+#!openUrl=https://apps.apple.com/app/id1352849256
+#!tag=去广告
+#!loon_version=3.4.0(962)
+#!homepage=https://hub.kelee.one
+#!date=2026-06-01 17:11:35
+
+[Script]
+body_rewrite_13 = type=http-response, pattern=^https?:\/\/m\.pvp\.xoyo\.com\/conf\/server-mapping$, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.splashConf%22%2C%22data.splashConfNew%22%5D%5D%5D
+
+[MITM]
+hostname = %APPEND% m.pvp.xoyo.com
